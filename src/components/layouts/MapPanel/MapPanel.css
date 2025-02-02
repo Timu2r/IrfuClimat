@@ -1,0 +1,65 @@
+.map__panel {
+	color: #000;
+	display: flex;
+	max-width: 1200px;
+	position: relative;
+	bottom: 5rem;
+	font-family: 'Nunito Sans', serif;
+}
+
+.map__panel p {
+	margin: 0;
+}
+
+.map__img {
+	margin-left: 5rem;
+}
+
+.map__info {
+	margin-left: 2rem;
+}
+
+.map__phone {
+	font-weight: 500;
+}
+
+.map__conphon {
+	margin: 0.5rem 0;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.map__address {
+	font-weight: 500;
+}
+
+.map__whatsapp {
+	font-weight: 500;
+}
+
+.map__whatsapp p {
+	margin: 0.5rem 0;
+}
+
+.map__whatsapp span {
+	color: #00ff22;
+}
+
+.conteiner__address {
+	margin: 2rem 0;
+}
+
+.whatsapp a {
+	color: #00ff22;
+	transition: all 0.5s;
+}
+
+.whatsapp a:hover {
+	color: #00ff22;
+	font-size: 22px;
+	filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, 0.549));
+}
+
+.whatsapp a:active {
+	opacity: 0.5;
+}

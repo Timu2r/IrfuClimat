@@ -1,0 +1,107 @@
+.services {
+	background-color: #fff;
+	font-family: 'Nunito Sans', serif;
+	color: black;
+	padding: 10rem 0 0 0;
+	cursor: default;
+	background-color: rgba(72, 0, 255, 0.068);
+	padding: 0;
+	padding-top: 2rem;
+}
+
+.services__title {
+	margin: 0;
+	font-size: 50px;
+	padding: 0 0 0 5rem;
+}
+
+.services__info {
+	margin: 0;
+	font-size: 18px;
+	padding: 0 0 0 5rem;
+	font-weight: 300;
+	margin-bottom: 2rem;
+}
+
+.services__container {
+	margin: 0;
+	padding: 0 0 0 5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 80px;
+	padding-bottom: 5rem;
+}
+
+.services__cost {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	height: 400px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+.services__icon {
+	padding-top: 1rem;
+	font-size: 50px;
+	color: rgb(0, 60, 255);
+	transition: all 0.5s;
+}
+
+.services__icon:hover {
+	filter: drop-shadow(5px 5px 1px rgb(0, 0, 0));
+}
+
+.services__titlecost {
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.services__content {
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 0;
+	color: #11191f;
+}
+
+.services__button {
+	background: none;
+	border: none;
+	font-size: 1em;
+	cursor: pointer;
+	color: #bc00eb;
+	transition: all 0.5s;
+}
+
+.services__iconb {
+	font-size: 1em;
+	position: relative;
+	top: 3px;
+	color: #bc00eb;
+	transition: all 0.5s;
+}
+
+.services__button:hover,
+.services__button:hover .services__iconb {
+	color: #3a0049;
+}
+
+.services__button:active,
+.services__button:active .services__iconb {
+	opacity: 0.5;
+}
+
+.services__buttoncont {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}

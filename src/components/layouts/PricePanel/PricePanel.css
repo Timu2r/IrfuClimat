@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+}
+
+.price {
+	background-color: #fff;
+	font-family: 'Nunito Sans', serif;
+	color: black;
+	padding: 10rem 0 0 0;
+	cursor: default;
+	background-color: rgba(72, 0, 255, 0.068);
+	padding: 0;
+	padding-top: 2rem;
+	margin: 0;
+	scroll-margin-top: 70px;
+}
+
+.price__title {
+	margin: 0;
+	font-size: 50px;
+	padding: 0 0 0 5rem;
+}
+
+.price__info {
+	margin: 0;
+	font-size: 18px;
+	padding: 0 0 0 5rem;
+	font-weight: 300;
+	margin-bottom: 2rem;
+	position: relative;
+	bottom: 3rem;
+}
+
+.price__container {
+	margin: 0;
+	padding: 0 0 0 5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 80px;
+	padding-bottom: 5rem;
+}
+
+.price__cost {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	height: 400px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+.price__icon {
+	padding-top: 1rem;
+	font-size: 50px;
+	color: rgb(0, 60, 255);
+	transition: all 0.5s;
+}
+
+.price__icon:hover {
+	filter: drop-shadow(5px 5px 1px rgb(0, 0, 0));
+}
+
+.price__titlecost {
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.price__content {
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 0;
+	color: #11191f;
+}
+
+.price button{
+	position: relative;
+	left: 1180px;
+	bottom: 5rem;
+	margin: 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(255, 60, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: border 0.4s, background-color 0.4s, color 0.4s;
+}
+
+.price button:hover {
+	background-color: rgb(166, 0, 0);
+}
+
+.price button:active {
+	opacity: 0.5;
+}
+
+.price__costcont {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.whatll {
+	font-size: 20px;
+	font-weight: 800;
+	color: rgb(0, 60, 255);
+	font-family: 'Nunito Sans', serif;
+}
